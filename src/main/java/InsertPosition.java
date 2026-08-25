@@ -21,10 +21,6 @@ public class InsertPosition {
             {
                 return i;
             }
-            if(nums[i]<target)
-            {
-                return i+1;
-            }
         }
         return -1;
     }
